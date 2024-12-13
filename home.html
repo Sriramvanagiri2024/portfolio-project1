@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>homepage</title>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a href="#" class="logo">My website</a>
+                <ul class="nav-links">
+                    <li>
+                        <a href="about.html">ABOUT</a>
+                    </li>
+                    <li>
+                        <a href="skill.html">SKILL</a>
+                    </li>
+                    <li>
+                        <a href="contact.html">CONTACT</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <section class="hero">
+        <div class="container">
+            <h1>WELCOME TO MY WEBSITE</h1>
+            <P>FILLSTACK DEVELEPER</P> <br><br>
+            <a href="#about" class="btn">Learn More</a>
+            
+        </div>
+    </section>
+    <section id="about" class="content-section">
+    <div class="container">
+        
+        <h2>ABOUT ME</h2>
+        <p> <b>I'm available for "  JAVA FULL STACK DEVELOPMENT".</b></p>
+        <center>
+        <p1> Hi! Iam sriram,from chennai to intrested in learn manythings and explore new</p1></center>
+    </div>
+</section>
+    <section id="skill" class="content-section">
+        <div class="container">
+            <h2>MY SKILL</h2>
+            <p>explore to the services to acheive ur goals</p>
+</div>
+</section>
+        <section id="contact" class="content-section"> 
+        <div class="container">
+            <h2>CONTACT ME</h2>
+            <p>get in touch for more information</p>
+        </div></section>
+        <footer>
+            <div class="container">
+                <p>&copy;2024 MyWebsite. All rights reserved.</p>
+
+            </div>
+        </footer>
+    
+</body>
+</html>
+<style>
+    *{
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        line-height: 2; 
+    }
+    .container
+    {
+     width: 90%;
+     max-width: 1200PX;
+     margin: 0 auto;
+
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1rem 0;
+        background:#333;
+        color: white;
+
+    }
+    .navbar .logo{
+        font-size: 1.5rem ;
+        font-weight: bold;
+        color: coral;
+    }
+    .navbar .nav-links{
+        list-style: none;
+        display: flex;
+    }
+    .navbar .nav-links li{
+        margin-left: 1rem;
+    }
+    .navbar .nav-links a{
+        color: white;
+        text-decoration: none;
+    }
+    .navbar .nav-links a:hover{
+        text-decoration: underline;
+        
+
+    }
+    .hero{
+       background: url("");
+       color:coral;
+       text-align: center;
+       padding: 5rem 0;
+    }
+    .hero h1{
+        font-size: 3rem;
+    }
+    .hero p{
+        margin: 1.5;
+        font-size: 1.5;
+    }
+    
+    .hero .btn{
+        display: inline-block;
+        color: white;
+        padding: 0.8rem 5rem;
+        text-decoration: none;
+        background-color:black;
+        border-radius: 5px;
+    }
+    .hero .btn:hover{
+        background-color:coral;
+        color: black;
+    }
+    .content-section{
+       padding: 2rem o;
+    }
+    .content-section h2{
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+    .content-section p{
+        text-align: center;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+    footer{
+        text-align: center;
+        padding: 1rem;
+        background-color: black;
+        color: beige;
+    }
+
+
+    
+</style>
